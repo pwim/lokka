@@ -9,6 +9,7 @@ else
   require 'rubygems'
   require 'bundler'
   Bundler.setup
+  Bundler.require
 end
 
 require 'lokka'

@@ -32,6 +32,7 @@ gem 'kramdown'
 gem 'RedCloth', '4.2.9'
 gem 'wikicloth'
 gem 'yard-sinatra', '1.0.0'
+gem 'lokka-hello', :git => "git@github.com:pwim/lokka-hello.git"
 
 Dir["public/plugin/lokka-*/Gemfile"].each {|path| eval(open(path) {|f| f.read }) }
 
